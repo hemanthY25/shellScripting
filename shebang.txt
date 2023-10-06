@@ -1,0 +1,11 @@
+Shebang denoted as #!
+
+The #! syntax is used in scripts to indicate an interpreter for execution under
+UNIX / Linux operating systems. The directive must be the first line in the 
+Linux shell script. You can add argument after the shebang characters,
+ which is optional. Make sure the interpreter is the
+full path to a binary file. For example: #!/bin/bash.
+
+#!/path/to/interpreter [arguments]
+
+Arguments are optional. 
